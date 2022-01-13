@@ -10,4 +10,5 @@ jobs:
         run: |
           cat /etc/os-release
           pip list
-          ansible-galaxy collection list
+          ps -ef
+          ping -c 5 8.8.8.8
