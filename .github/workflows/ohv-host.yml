@@ -2,7 +2,7 @@ name: run OHV-HOST container
 on: [push]
 jobs:
   start-container:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     container:
       image: mitchv85/ohv-host:latest
     steps:
